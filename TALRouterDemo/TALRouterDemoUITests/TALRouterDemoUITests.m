@@ -1,6 +1,6 @@
 //
-//  TALRouterUITests.m
-//  TALRouterUITests
+//  TALRouterDemoUITests.m
+//  TALRouterDemoUITests
 //
 //  Created by zhangshuai on 2019/1/22.
 //  Copyright © 2019 zhangshuai. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface TALRouterUITests : XCTestCase
+@interface TALRouterDemoUITests : XCTestCase
 
 @end
 
-@implementation TALRouterUITests
+@implementation TALRouterDemoUITests
 
 - (void)setUp {
     // Put setup code here. This method is called before the invocation of each test method in the class.

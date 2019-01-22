@@ -7,53 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5B2FD36521F715200024AB11 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2FD36421F715200024AB11 /* AppDelegate.m */; };
-		5B2FD36821F715200024AB11 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2FD36721F715200024AB11 /* ViewController.m */; };
-		5B2FD36B21F715200024AB11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B2FD36921F715200024AB11 /* Main.storyboard */; };
-		5B2FD36D21F715210024AB11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B2FD36C21F715210024AB11 /* Assets.xcassets */; };
-		5B2FD37021F715210024AB11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B2FD36E21F715210024AB11 /* LaunchScreen.storyboard */; };
-		5B2FD37321F715210024AB11 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2FD37221F715210024AB11 /* main.m */; };
-		5B2FD37D21F715210024AB11 /* TALRouterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2FD37C21F715210024AB11 /* TALRouterUITests.m */; };
-		5B2FD38921F717C70024AB11 /* TAlRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2FD38821F717C70024AB11 /* TAlRouter.m */; };
+		5B2FD39821F731150024AB11 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2FD39721F731150024AB11 /* AppDelegate.m */; };
+		5B2FD39B21F731150024AB11 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2FD39A21F731150024AB11 /* ViewController.m */; };
+		5B2FD39E21F731150024AB11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B2FD39C21F731150024AB11 /* Main.storyboard */; };
+		5B2FD3A021F731160024AB11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B2FD39F21F731160024AB11 /* Assets.xcassets */; };
+		5B2FD3A321F731160024AB11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B2FD3A121F731160024AB11 /* LaunchScreen.storyboard */; };
+		5B2FD3A621F731160024AB11 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2FD3A521F731160024AB11 /* main.m */; };
+		5B2FD3B021F731160024AB11 /* TALRouterDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2FD3AF21F731160024AB11 /* TALRouterDemoUITests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5B2FD37921F715210024AB11 /* PBXContainerItemProxy */ = {
+		5B2FD3AC21F731160024AB11 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 5B2FD35821F715200024AB11 /* Project object */;
+			containerPortal = 5B2FD38B21F731150024AB11 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5B2FD35F21F715200024AB11;
-			remoteInfo = TALRouter;
+			remoteGlobalIDString = 5B2FD39221F731150024AB11;
+			remoteInfo = TALRouterDemo;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5B2FD36021F715200024AB11 /* TALRouter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TALRouter.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5B2FD36321F715200024AB11 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		5B2FD36421F715200024AB11 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5B2FD36621F715200024AB11 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5B2FD36721F715200024AB11 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		5B2FD36A21F715200024AB11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5B2FD36C21F715210024AB11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5B2FD36F21F715210024AB11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		5B2FD37121F715210024AB11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5B2FD37221F715210024AB11 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5B2FD37821F715210024AB11 /* TALRouterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TALRouterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5B2FD37C21F715210024AB11 /* TALRouterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TALRouterUITests.m; sourceTree = "<group>"; };
-		5B2FD37E21F715220024AB11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5B2FD38721F717BD0024AB11 /* TAlRouter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAlRouter.h; sourceTree = "<group>"; };
-		5B2FD38821F717C70024AB11 /* TAlRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAlRouter.m; sourceTree = "<group>"; };
+		5B2FD39321F731150024AB11 /* TALRouterDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TALRouterDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B2FD39621F731150024AB11 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5B2FD39721F731150024AB11 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5B2FD39921F731150024AB11 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5B2FD39A21F731150024AB11 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5B2FD39D21F731150024AB11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5B2FD39F21F731160024AB11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5B2FD3A221F731160024AB11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5B2FD3A421F731160024AB11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B2FD3A521F731160024AB11 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5B2FD3AB21F731160024AB11 /* TALRouterDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TALRouterDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B2FD3AF21F731160024AB11 /* TALRouterDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TALRouterDemoUITests.m; sourceTree = "<group>"; };
+		5B2FD3B121F731160024AB11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5B2FD35D21F715200024AB11 /* Frameworks */ = {
+		5B2FD39021F731150024AB11 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5B2FD37521F715210024AB11 /* Frameworks */ = {
+		5B2FD3A821F731160024AB11 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -63,108 +60,106 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5B2FD35721F715200024AB11 = {
+		5B2FD38A21F731150024AB11 = {
 			isa = PBXGroup;
 			children = (
-				5B2FD36221F715200024AB11 /* TALRouter */,
-				5B2FD37B21F715210024AB11 /* TALRouterUITests */,
-				5B2FD36121F715200024AB11 /* Products */,
+				5B2FD39521F731150024AB11 /* TALRouterDemo */,
+				5B2FD3AE21F731160024AB11 /* TALRouterDemoUITests */,
+				5B2FD39421F731150024AB11 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		5B2FD36121F715200024AB11 /* Products */ = {
+		5B2FD39421F731150024AB11 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5B2FD36021F715200024AB11 /* TALRouter.app */,
-				5B2FD37821F715210024AB11 /* TALRouterUITests.xctest */,
+				5B2FD39321F731150024AB11 /* TALRouterDemo.app */,
+				5B2FD3AB21F731160024AB11 /* TALRouterDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5B2FD36221F715200024AB11 /* TALRouter */ = {
+		5B2FD39521F731150024AB11 /* TALRouterDemo */ = {
 			isa = PBXGroup;
 			children = (
-				5B2FD36321F715200024AB11 /* AppDelegate.h */,
-				5B2FD36421F715200024AB11 /* AppDelegate.m */,
-				5B2FD38721F717BD0024AB11 /* TAlRouter.h */,
-				5B2FD38821F717C70024AB11 /* TAlRouter.m */,
-				5B2FD36621F715200024AB11 /* ViewController.h */,
-				5B2FD36721F715200024AB11 /* ViewController.m */,
-				5B2FD36921F715200024AB11 /* Main.storyboard */,
-				5B2FD36C21F715210024AB11 /* Assets.xcassets */,
-				5B2FD36E21F715210024AB11 /* LaunchScreen.storyboard */,
-				5B2FD37121F715210024AB11 /* Info.plist */,
-				5B2FD37221F715210024AB11 /* main.m */,
+				5B2FD39621F731150024AB11 /* AppDelegate.h */,
+				5B2FD39721F731150024AB11 /* AppDelegate.m */,
+				5B2FD39921F731150024AB11 /* ViewController.h */,
+				5B2FD39A21F731150024AB11 /* ViewController.m */,
+				5B2FD39C21F731150024AB11 /* Main.storyboard */,
+				5B2FD39F21F731160024AB11 /* Assets.xcassets */,
+				5B2FD3A121F731160024AB11 /* LaunchScreen.storyboard */,
+				5B2FD3A421F731160024AB11 /* Info.plist */,
+				5B2FD3A521F731160024AB11 /* main.m */,
 			);
-			path = TALRouter;
+			path = TALRouterDemo;
 			sourceTree = "<group>";
 		};
-		5B2FD37B21F715210024AB11 /* TALRouterUITests */ = {
+		5B2FD3AE21F731160024AB11 /* TALRouterDemoUITests */ = {
 			isa = PBXGroup;
 			children = (
-				5B2FD37C21F715210024AB11 /* TALRouterUITests.m */,
-				5B2FD37E21F715220024AB11 /* Info.plist */,
+				5B2FD3AF21F731160024AB11 /* TALRouterDemoUITests.m */,
+				5B2FD3B121F731160024AB11 /* Info.plist */,
 			);
-			path = TALRouterUITests;
+			path = TALRouterDemoUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5B2FD35F21F715200024AB11 /* TALRouter */ = {
+		5B2FD39221F731150024AB11 /* TALRouterDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5B2FD38121F715220024AB11 /* Build configuration list for PBXNativeTarget "TALRouter" */;
+			buildConfigurationList = 5B2FD3B421F731160024AB11 /* Build configuration list for PBXNativeTarget "TALRouterDemo" */;
 			buildPhases = (
-				5B2FD35C21F715200024AB11 /* Sources */,
-				5B2FD35D21F715200024AB11 /* Frameworks */,
-				5B2FD35E21F715200024AB11 /* Resources */,
+				5B2FD38F21F731150024AB11 /* Sources */,
+				5B2FD39021F731150024AB11 /* Frameworks */,
+				5B2FD39121F731150024AB11 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = TALRouter;
-			productName = TALRouter;
-			productReference = 5B2FD36021F715200024AB11 /* TALRouter.app */;
+			name = TALRouterDemo;
+			productName = TALRouterDemo;
+			productReference = 5B2FD39321F731150024AB11 /* TALRouterDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5B2FD37721F715210024AB11 /* TALRouterUITests */ = {
+		5B2FD3AA21F731160024AB11 /* TALRouterDemoUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5B2FD38421F715220024AB11 /* Build configuration list for PBXNativeTarget "TALRouterUITests" */;
+			buildConfigurationList = 5B2FD3B721F731160024AB11 /* Build configuration list for PBXNativeTarget "TALRouterDemoUITests" */;
 			buildPhases = (
-				5B2FD37421F715210024AB11 /* Sources */,
-				5B2FD37521F715210024AB11 /* Frameworks */,
-				5B2FD37621F715210024AB11 /* Resources */,
+				5B2FD3A721F731160024AB11 /* Sources */,
+				5B2FD3A821F731160024AB11 /* Frameworks */,
+				5B2FD3A921F731160024AB11 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5B2FD37A21F715210024AB11 /* PBXTargetDependency */,
+				5B2FD3AD21F731160024AB11 /* PBXTargetDependency */,
 			);
-			name = TALRouterUITests;
-			productName = TALRouterUITests;
-			productReference = 5B2FD37821F715210024AB11 /* TALRouterUITests.xctest */;
+			name = TALRouterDemoUITests;
+			productName = TALRouterDemoUITests;
+			productReference = 5B2FD3AB21F731160024AB11 /* TALRouterDemoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		5B2FD35821F715200024AB11 /* Project object */ = {
+		5B2FD38B21F731150024AB11 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = zhangshuai;
 				TargetAttributes = {
-					5B2FD35F21F715200024AB11 = {
+					5B2FD39221F731150024AB11 = {
 						CreatedOnToolsVersion = 10.1;
 					};
-					5B2FD37721F715210024AB11 = {
+					5B2FD3AA21F731160024AB11 = {
 						CreatedOnToolsVersion = 10.1;
-						TestTargetID = 5B2FD35F21F715200024AB11;
+						TestTargetID = 5B2FD39221F731150024AB11;
 					};
 				};
 			};
-			buildConfigurationList = 5B2FD35B21F715200024AB11 /* Build configuration list for PBXProject "TALRouter" */;
+			buildConfigurationList = 5B2FD38E21F731150024AB11 /* Build configuration list for PBXProject "TALRouterDemo" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -172,29 +167,29 @@
 				en,
 				Base,
 			);
-			mainGroup = 5B2FD35721F715200024AB11;
-			productRefGroup = 5B2FD36121F715200024AB11 /* Products */;
+			mainGroup = 5B2FD38A21F731150024AB11;
+			productRefGroup = 5B2FD39421F731150024AB11 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5B2FD35F21F715200024AB11 /* TALRouter */,
-				5B2FD37721F715210024AB11 /* TALRouterUITests */,
+				5B2FD39221F731150024AB11 /* TALRouterDemo */,
+				5B2FD3AA21F731160024AB11 /* TALRouterDemoUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5B2FD35E21F715200024AB11 /* Resources */ = {
+		5B2FD39121F731150024AB11 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B2FD37021F715210024AB11 /* LaunchScreen.storyboard in Resources */,
-				5B2FD36D21F715210024AB11 /* Assets.xcassets in Resources */,
-				5B2FD36B21F715200024AB11 /* Main.storyboard in Resources */,
+				5B2FD3A321F731160024AB11 /* LaunchScreen.storyboard in Resources */,
+				5B2FD3A021F731160024AB11 /* Assets.xcassets in Resources */,
+				5B2FD39E21F731150024AB11 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5B2FD37621F715210024AB11 /* Resources */ = {
+		5B2FD3A921F731160024AB11 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -204,48 +199,47 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5B2FD35C21F715200024AB11 /* Sources */ = {
+		5B2FD38F21F731150024AB11 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B2FD36821F715200024AB11 /* ViewController.m in Sources */,
-				5B2FD38921F717C70024AB11 /* TAlRouter.m in Sources */,
-				5B2FD37321F715210024AB11 /* main.m in Sources */,
-				5B2FD36521F715200024AB11 /* AppDelegate.m in Sources */,
+				5B2FD39B21F731150024AB11 /* ViewController.m in Sources */,
+				5B2FD3A621F731160024AB11 /* main.m in Sources */,
+				5B2FD39821F731150024AB11 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5B2FD37421F715210024AB11 /* Sources */ = {
+		5B2FD3A721F731160024AB11 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B2FD37D21F715210024AB11 /* TALRouterUITests.m in Sources */,
+				5B2FD3B021F731160024AB11 /* TALRouterDemoUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5B2FD37A21F715210024AB11 /* PBXTargetDependency */ = {
+		5B2FD3AD21F731160024AB11 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5B2FD35F21F715200024AB11 /* TALRouter */;
-			targetProxy = 5B2FD37921F715210024AB11 /* PBXContainerItemProxy */;
+			target = 5B2FD39221F731150024AB11 /* TALRouterDemo */;
+			targetProxy = 5B2FD3AC21F731160024AB11 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		5B2FD36921F715200024AB11 /* Main.storyboard */ = {
+		5B2FD39C21F731150024AB11 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5B2FD36A21F715200024AB11 /* Base */,
+				5B2FD39D21F731150024AB11 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		5B2FD36E21F715210024AB11 /* LaunchScreen.storyboard */ = {
+		5B2FD3A121F731160024AB11 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5B2FD36F21F715210024AB11 /* Base */,
+				5B2FD3A221F731160024AB11 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -253,7 +247,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		5B2FD37F21F715220024AB11 /* Debug */ = {
+		5B2FD3B221F731160024AB11 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -312,7 +306,7 @@
 			};
 			name = Debug;
 		};
-		5B2FD38021F715220024AB11 /* Release */ = {
+		5B2FD3B321F731160024AB11 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -365,107 +359,107 @@
 			};
 			name = Release;
 		};
-		5B2FD38221F715220024AB11 /* Debug */ = {
+		5B2FD3B521F731160024AB11 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FUHK36WVMG;
-				INFOPLIST_FILE = TALRouter/Info.plist;
+				INFOPLIST_FILE = TALRouterDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.TAL.TALRouter;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TAL.TALRouterDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		5B2FD38321F715220024AB11 /* Release */ = {
+		5B2FD3B621F731160024AB11 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FUHK36WVMG;
-				INFOPLIST_FILE = TALRouter/Info.plist;
+				INFOPLIST_FILE = TALRouterDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.TAL.TALRouter;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TAL.TALRouterDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		5B2FD38521F715220024AB11 /* Debug */ = {
+		5B2FD3B821F731160024AB11 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FUHK36WVMG;
-				INFOPLIST_FILE = TALRouterUITests/Info.plist;
+				INFOPLIST_FILE = TALRouterDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.TAL.TALRouterUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TAL.TALRouterDemoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TALRouter;
+				TEST_TARGET_NAME = TALRouterDemo;
 			};
 			name = Debug;
 		};
-		5B2FD38621F715220024AB11 /* Release */ = {
+		5B2FD3B921F731160024AB11 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FUHK36WVMG;
-				INFOPLIST_FILE = TALRouterUITests/Info.plist;
+				INFOPLIST_FILE = TALRouterDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.TAL.TALRouterUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TAL.TALRouterDemoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TALRouter;
+				TEST_TARGET_NAME = TALRouterDemo;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5B2FD35B21F715200024AB11 /* Build configuration list for PBXProject "TALRouter" */ = {
+		5B2FD38E21F731150024AB11 /* Build configuration list for PBXProject "TALRouterDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5B2FD37F21F715220024AB11 /* Debug */,
-				5B2FD38021F715220024AB11 /* Release */,
+				5B2FD3B221F731160024AB11 /* Debug */,
+				5B2FD3B321F731160024AB11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5B2FD38121F715220024AB11 /* Build configuration list for PBXNativeTarget "TALRouter" */ = {
+		5B2FD3B421F731160024AB11 /* Build configuration list for PBXNativeTarget "TALRouterDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5B2FD38221F715220024AB11 /* Debug */,
-				5B2FD38321F715220024AB11 /* Release */,
+				5B2FD3B521F731160024AB11 /* Debug */,
+				5B2FD3B621F731160024AB11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5B2FD38421F715220024AB11 /* Build configuration list for PBXNativeTarget "TALRouterUITests" */ = {
+		5B2FD3B721F731160024AB11 /* Build configuration list for PBXNativeTarget "TALRouterDemoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5B2FD38521F715220024AB11 /* Debug */,
-				5B2FD38621F715220024AB11 /* Release */,
+				5B2FD3B821F731160024AB11 /* Debug */,
+				5B2FD3B921F731160024AB11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 5B2FD35821F715200024AB11 /* Project object */;
+	rootObject = 5B2FD38B21F731150024AB11 /* Project object */;
 }
