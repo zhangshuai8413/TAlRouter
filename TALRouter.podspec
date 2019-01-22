@@ -3,7 +3,7 @@
 Pod::Spec.new do |s|
 
     s.name         = "TALRouter"
-    s.version      = "1.0.4"
+    s.version      = "1.0.5"
     s.summary      = "an smart iOS URL TAlRouter 带回家爱上你女大三几年内发v"
     s.homepage     = "https://github.com/zhangshuai8413/TAlRouter"
     s.license      = {
@@ -19,10 +19,10 @@ Pod::Spec.new do |s|
     limitations under the License.
     LICENSE
     }
-    # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
     s.author             = { "zhangshuai" => "3096172607@qq.com" }
     s.platform     = :ios, "8.0"
-    s.source       = { :git => "https://github.com/zhangshuai8413/TAlRouter.git", :tag => "#{s.version} }
+    s.source       = { :git => "https://github.com/zhangshuai8413/TAlRouter.git", :tag => s.version }
     s.source_files  = "TALRouter/*.{h,m}"
-    s.platform = :ios, "8.0"
+
+
 end
