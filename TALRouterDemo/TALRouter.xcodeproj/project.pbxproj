@@ -14,6 +14,7 @@
 		5B2FD37021F715210024AB11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B2FD36E21F715210024AB11 /* LaunchScreen.storyboard */; };
 		5B2FD37321F715210024AB11 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2FD37221F715210024AB11 /* main.m */; };
 		5B2FD37D21F715210024AB11 /* TALRouterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2FD37C21F715210024AB11 /* TALRouterUITests.m */; };
+		5B2FD38921F717C70024AB11 /* TAlRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2FD38821F717C70024AB11 /* TAlRouter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		5B2FD37821F715210024AB11 /* TALRouterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TALRouterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B2FD37C21F715210024AB11 /* TALRouterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TALRouterUITests.m; sourceTree = "<group>"; };
 		5B2FD37E21F715220024AB11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B2FD38721F717BD0024AB11 /* TAlRouter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAlRouter.h; sourceTree = "<group>"; };
+		5B2FD38821F717C70024AB11 /* TAlRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAlRouter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 			children = (
 				5B2FD36321F715200024AB11 /* AppDelegate.h */,
 				5B2FD36421F715200024AB11 /* AppDelegate.m */,
+				5B2FD38721F717BD0024AB11 /* TAlRouter.h */,
+				5B2FD38821F717C70024AB11 /* TAlRouter.m */,
 				5B2FD36621F715200024AB11 /* ViewController.h */,
 				5B2FD36721F715200024AB11 /* ViewController.m */,
 				5B2FD36921F715200024AB11 /* Main.storyboard */,
@@ -204,6 +209,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B2FD36821F715200024AB11 /* ViewController.m in Sources */,
+				5B2FD38921F717C70024AB11 /* TAlRouter.m in Sources */,
 				5B2FD37321F715210024AB11 /* main.m in Sources */,
 				5B2FD36521F715200024AB11 /* AppDelegate.m in Sources */,
 			);
