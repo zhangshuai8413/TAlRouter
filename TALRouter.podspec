@@ -3,7 +3,7 @@
 Pod::Spec.new do |s|
 
     s.name         = "TAlRouter"
-    s.version      = "1.0.0"
+    s.version      = "1.0.1"
     s.summary      = "an smart iOS URL TAlRouter 带回家爱上你女大三几年内发v"
     s.homepage     = "https://github.com/zhangshuai8413/TAlRouter"
     s.license      = {
